@@ -55,7 +55,7 @@ Você precisará de um ambiente de desenvolvimento web com suporte a PHP e MySQL
 1.  **Clone o Repositório:**
 
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO]
+    git clone https://github.com/guihard1/3-CONGRESSO-GIROLANDO
     ```
 
 2.  **Configuração do Servidor:**
