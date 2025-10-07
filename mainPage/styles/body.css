@@ -1,0 +1,52 @@
+.containerMain {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.allItems {
+    margin-top: 15rem;
+}
+
+input {
+    width: 25rem;
+    border: 1px solid var(--gray-400);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    user-focus-pointer: initial;
+    margin: 1rem 0 1rem 0;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+svg {
+    margin: 0 0.5rem 0 -2rem;
+    padding: 0;
+    display: flex;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    background-color: #4C80F7;
+    color: var(--white);
+    transition: background-color 0.2s, color 0.2s;
+    border-radius: 0.5rem;
+    padding: 0 2rem;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #4C80F7;
+    border: 1px solid #4C80F7;
+}

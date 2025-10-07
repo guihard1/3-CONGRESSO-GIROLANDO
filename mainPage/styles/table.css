@@ -1,0 +1,48 @@
+.resultado-container {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultado-container table {
+    width: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    display: table-cell;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.resultado-container th {
+    padding: 0.5rem 5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 30%;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+.resultado-container td {
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.resultado-container td a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #4C80F7;
+}
+
+.resultado-container td svg {
+    vertical-align: middle;
+    margin-left: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+}
